@@ -14,7 +14,7 @@ function relogio(h, m, s) {
     let segundos = s;
 
     if (h > 23) {
-        console.log(error('HORAS maior que 24'))
+        console.log(error('HORAS maior que 23'))
     } else if (m > 59) {
         console.log(error('MINUTOS maior que 59'));
     } else if (s > 59) {
@@ -30,4 +30,4 @@ function relogio(h, m, s) {
     total = ${hora} + ${minutos} + ${segundos} = ${horasPorSegundo}`
 
 };
-console.log(relogio(24, 60, 59))
+console.log(relogio(22, 37, 19))
